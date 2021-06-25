@@ -1,0 +1,24 @@
+Left hand front up - f0-20
+
+Left hand front down - f20-40
+
+Left hand side up - f40-60
+
+Left hand side down - f60-80
+
+R hand front up - f80-100
+
+R hand front down - f100-120
+
+R hand side up - f120-140
+
+R hand side down - f140-160
+
+walking start - f160-170
+
+walking cicle - f170-210
+
+walking end - f210-220
+
+
+
