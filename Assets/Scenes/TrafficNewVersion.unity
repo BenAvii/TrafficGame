@@ -1169,7 +1169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carTag: Car
-  button: {fileID: 0}
+  button: {fileID: 723499194}
   stopOrder: 0
 --- !u!1 &393898018
 GameObject:
@@ -1863,6 +1863,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sphereRadius: 0.06
   sphereColor: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &723499194 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7572704668011980991, guid: 7f43596ba2ae4724ab0466a993d03267, type: 3}
+  m_PrefabInstance: {fileID: 343261606}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &739025475
 GameObject:
   m_ObjectHideFlags: 0
@@ -2562,6 +2573,7 @@ Transform:
   - {fileID: 1838931996}
   - {fileID: 45166923}
   - {fileID: 311161376}
+  - {fileID: 1252700263}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3853,6 +3865,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b326234b328f7a458e4060e46b1d11c, type: 3}
+--- !u!1 &1252700262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1252700263}
+  - component: {fileID: 1252700264}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1252700263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252700262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1043840172}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1252700264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252700262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2cada7b4e4e5cd489929d2532ab3f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: 1
 --- !u!1 &1255810442
 GameObject:
   m_ObjectHideFlags: 0
