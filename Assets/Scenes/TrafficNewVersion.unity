@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -181,6 +181,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8295446055576601437, guid: 143869062e5100341980d1794baddaf1, type: 3}
   m_PrefabInstance: {fileID: 348456255}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &263882488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 263882489}
+  - component: {fileID: 263882490}
+  m_Layer: 3
+  m_Name: Target (36)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &263882489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263882488}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.44, y: 0, z: -2.57}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1876332613}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &263882490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263882488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41694c12a1e5e8e4d940bad030616891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphereRadius: 0.06
+  sphereColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &309069271 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4059053257245764002, guid: 7f43596ba2ae4724ab0466a993d03267, type: 3}
@@ -832,6 +877,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -2222715836425447991, guid: 143869062e5100341980d1794baddaf1, type: 3}
   m_PrefabInstance: {fileID: 348456255}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &862439231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 862439232}
+  - component: {fileID: 862439233}
+  m_Layer: 3
+  m_Name: Target (37)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &862439232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862439231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.43, y: 0, z: -2.91}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1876332613}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &862439233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862439231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41694c12a1e5e8e4d940bad030616891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphereRadius: 0.06
+  sphereColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &872349823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2977,6 +3067,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2745707462838075891, guid: bf22111fd62bb454cbc62eb59a6d4936, type: 3}
   m_PrefabInstance: {fileID: 2745707462178689463}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1876332613 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2745707462838075890, guid: bf22111fd62bb454cbc62eb59a6d4936, type: 3}
+  m_PrefabInstance: {fileID: 2745707462178689463}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1877230506
 GameObject:
   m_ObjectHideFlags: 0
@@ -3384,10 +3479,34 @@ PrefabInstance:
       propertyPath: timeManager
       value: 
       objectReference: {fileID: 1838931995}
+    - target: {fileID: 2745707462441402869, guid: bf22111fd62bb454cbc62eb59a6d4936, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2745707462441402870, guid: bf22111fd62bb454cbc62eb59a6d4936, type: 3}
       propertyPath: carsSlider
       value: 
       objectReference: {fileID: 1660435918}
+    - target: {fileID: 2745707462441402871, guid: bf22111fd62bb454cbc62eb59a6d4936, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.533
+      objectReference: {fileID: 0}
+    - target: {fileID: 2745707462441402871, guid: bf22111fd62bb454cbc62eb59a6d4936, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.938
+      objectReference: {fileID: 0}
+    - target: {fileID: 2745707462637926269, guid: bf22111fd62bb454cbc62eb59a6d4936, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 2745707462637926270, guid: bf22111fd62bb454cbc62eb59a6d4936, type: 3}
+      propertyPath: m_Center.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2745707462637926270, guid: bf22111fd62bb454cbc62eb59a6d4936, type: 3}
+      propertyPath: m_Center.z
+      value: -0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 2745707462679813611, guid: bf22111fd62bb454cbc62eb59a6d4936, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -3435,6 +3554,10 @@ PrefabInstance:
     - target: {fileID: 2745707462679813612, guid: bf22111fd62bb454cbc62eb59a6d4936, type: 3}
       propertyPath: m_Name
       value: InGameObjects
+      objectReference: {fileID: 0}
+    - target: {fileID: 2745707462679813612, guid: bf22111fd62bb454cbc62eb59a6d4936, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2745707463011729764, guid: bf22111fd62bb454cbc62eb59a6d4936, type: 3}
       propertyPath: carsSlider
