@@ -733,7 +733,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b9ff3684f9a81428cc7399d22eda38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carTag: Car
   timeManager: {fileID: 1838931995}
   cop: {fileID: 368693705}
   UpperBody: {fileID: 508665292}
@@ -1037,9 +1036,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdbb37f00f761a0429e93680bb6135f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameUI: {fileID: 0}
-  carTag: Car
-  CrashedcarTag: crashedCar
 --- !u!1 &277788890
 GameObject:
   m_ObjectHideFlags: 0
@@ -1372,6 +1368,7 @@ MonoBehaviour:
   maxSpawntime: 0
   minSpawntime: 0
   miniMap: {fileID: 0}
+  engineSound: {fileID: 0}
   flag: 0
 --- !u!4 &311161376
 Transform:
@@ -1572,6 +1569,7 @@ MonoBehaviour:
   noTouchCar: NoTouchCar
   button: {fileID: 4059053259111741200}
   stopOrder: 0
+  stopAnimation: {fileID: 0}
 --- !u!1001 &348456255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1947,7 +1945,6 @@ MonoBehaviour:
   maxAnimDuration: 1.8
   easeType: 28
   spread: 0.2
-  animator: {fileID: 4001892720201366958}
 --- !u!1 &393898018
 GameObject:
   m_ObjectHideFlags: 0
@@ -3846,9 +3843,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdbb37f00f761a0429e93680bb6135f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameUI: {fileID: 0}
-  carTag: Car
-  CrashedcarTag: crashedCar
 --- !u!1 &781089426
 GameObject:
   m_ObjectHideFlags: 0
@@ -7104,6 +7098,18 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 533413926719171912, guid: 6a84c4122d4aeb246b614776ca7a2551, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 533413926719171912, guid: 6a84c4122d4aeb246b614776ca7a2551, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 533413926719171912, guid: 6a84c4122d4aeb246b614776ca7a2551, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 533413926719171912, guid: 6a84c4122d4aeb246b614776ca7a2551, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.05
       objectReference: {fileID: 0}
@@ -8782,7 +8788,7 @@ Transform:
   - {fileID: 778632443}
   - {fileID: 191609252}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1736318591
 GameObject:
@@ -9325,7 +9331,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1838931995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9338,6 +9344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa1cfca43c2074f47a22cb9774c185ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  engineSound: {fileID: 0}
   slowdownFactor: 0.1
 --- !u!4 &1838931996
 Transform:
@@ -9705,6 +9712,18 @@ PrefabInstance:
     - target: {fileID: 8342688193503508651, guid: e8e5a1d589f75434885c47cc8da80e70, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342688193503508651, guid: e8e5a1d589f75434885c47cc8da80e70, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342688193503508651, guid: e8e5a1d589f75434885c47cc8da80e70, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342688193503508651, guid: e8e5a1d589f75434885c47cc8da80e70, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8342688193503508651, guid: e8e5a1d589f75434885c47cc8da80e70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15170,7 +15189,7 @@ RectTransform:
   - {fileID: 487598858}
   - {fileID: 4059053258252690232}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -15637,11 +15656,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81d2bec334bb40e4e961754b43880352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  carDot: {fileID: 0}
   miniMapPathes:
   - {fileID: 4059053258597732170}
   - {fileID: 4059053257825275502}
   - {fileID: 4059053257706683626}
   - {fileID: 4059053258436987065}
+  cop: {fileID: 0}
+  updateInterval: 0
 --- !u!1 &4059053258940602768
 GameObject:
   m_ObjectHideFlags: 0
