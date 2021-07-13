@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1678,6 +1678,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5805481745926445764, guid: 35b5e8567d92ebf4b86cdacb49427601, type: 3}
   m_PrefabInstance: {fileID: 5805481747499137274}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1653728640 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2180288944844599108, guid: 35b5e8567d92ebf4b86cdacb49427601, type: 3}
+  m_PrefabInstance: {fileID: 5805481747499137274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1718062171 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5805481745857164449, guid: 35b5e8567d92ebf4b86cdacb49427601, type: 3}
@@ -2159,6 +2164,10 @@ PrefabInstance:
       propertyPath: miniMap
       value: 
       objectReference: {fileID: 4059053258932480817}
+    - target: {fileID: 3520009364784079288, guid: 3f3cab26c73d0e74f8371e976a19e970, type: 3}
+      propertyPath: engineSound
+      value: 
+      objectReference: {fileID: 1653728640}
     - target: {fileID: 3520009364859381887, guid: 3f3cab26c73d0e74f8371e976a19e970, type: 3}
       propertyPath: coinUI
       value: 
@@ -2222,6 +2231,14 @@ PrefabInstance:
     - target: {fileID: 3520009365534584588, guid: 3f3cab26c73d0e74f8371e976a19e970, type: 3}
       propertyPath: m_Name
       value: Managers
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520009365725750209, guid: 3f3cab26c73d0e74f8371e976a19e970, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520009366311859133, guid: 3f3cab26c73d0e74f8371e976a19e970, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f3cab26c73d0e74f8371e976a19e970, type: 3}
