@@ -3,10 +3,7 @@ guid: 2ab4d8e4b7f46c34eafdd356503c6adf
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - button: {instanceID: 0}
-  - horn: {fileID: 5729815056988040505, guid: cc545168ef1cd3b47924bdebc1be2e04, type: 3}
-  - hornclip: {fileID: 8300000, guid: 870337091504bac499f316d41ccc4627, type: 3}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
