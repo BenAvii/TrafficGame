@@ -20398,6 +20398,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2880676334028708286, guid: 0dc8ace2c316aab4083bf048c64e239e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2880676334028708287, guid: 0dc8ace2c316aab4083bf048c64e239e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -20611,12 +20615,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 867159199}
     - target: {fileID: 2880676335245204234, guid: 0dc8ace2c316aab4083bf048c64e239e, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2880676335245204234, guid: 0dc8ace2c316aab4083bf048c64e239e, type: 3}
-      propertyPath: updateInterval
-      value: 0.5
+      propertyPath: minDistance
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2880676335253858728, guid: 0dc8ace2c316aab4083bf048c64e239e, type: 3}
       propertyPath: m_IsActive
